@@ -9,7 +9,9 @@ The StockNews.ipynb Jupyter notebook contains Python code for analyzing news tex
 
 StockNews.ipynb: Jupyter notebook containing the Python code for analysis.
 The code begins with the **first cell**, which first uses csvreader to read in our file. We create a list (ft_rows) of all the cells in column 3 which contains the full text of the news articles we are analyzing. We then customize and tokenize the text to create bigrams. 
+
 **Cell two** deals with finding statistics about our data like total words, total tokens, and average sentences per report.
+
 **Cell three** just prints out the first 500 tokens which we were just using for data exploration.
 **Cell four** prints the top 50 tokens and their frequencies.
 **Cell five** deals with creating bigrams for the normalized text.
